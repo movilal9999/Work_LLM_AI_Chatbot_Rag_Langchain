@@ -1,0 +1,31 @@
+# langchain core
+langchain
+langchain-core
+
+# OpenAi Integeration
+langchain-openai
+openai
+
+# Anthropic Integeration
+langchain-anthropic
+
+# Google gemini (PaLM) Integeration
+langchain-google-genai
+google-generativeai
+
+
+# Hugging Face Integeration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable management
+python-dotenv
+
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# for ui
+streamlit

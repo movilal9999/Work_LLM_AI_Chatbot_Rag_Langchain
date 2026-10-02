@@ -1,0 +1,110 @@
+Notes.md
+personal_notes.md
+# Virtual Environments
+
+.venv/
+venv/
+env/
+ENV/
+model_env/
+my_env/
+ERT_env/
+PDG_env/
+SAA_env/
+*_env/
+
+
+# Environment Variables
+
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Jupyter / Notebooks
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# Testing / Coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+
+# Type Checkers
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
+
+
+# Logs & Databases
+
+*.log
+*.sqlite3
+*.db
+chat_history.txt
+
+
+# IDE / Editor
+
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Build artifacts
+
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Hugging Face cache
+
+.cache/
+huggingface/
