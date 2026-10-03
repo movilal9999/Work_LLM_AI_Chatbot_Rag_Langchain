@@ -1,40 +1,8 @@
 ### My Work
+# Generative AI 
 
+# multiples projects in this single repo related all Gen AI
 
-# multiples projects and structure 
-
-
-├── LangChain_model/
-│   ├── .vscode/
-│   │
-│   └── Backend/
-│       ├── 1.LLMs/
-│       │   ├── demo.py
-│       │   ├── prompt_ui.py
-│       │   └── prompts2.py
-│       │
-│       ├── 2.ChatModels/
-│       │   └── chat_model_hf_api.py
-│       │
-│       ├── 3.EmbeddedModels/
-│       │   ├── Documents_similarity.py
-│       │   ├── Embedding.py
-│       │   ├── huggingFaceEmbedding.py
-│       │   └── multiEmbedding.py
-│       │
-│       ├── Chains/
-│       │   ├── conditional_chain.py
-│       │   ├── parallel_chains.py
-│       │   ├── sequential_chain.py
-│       │   └── simple_chain.py
-│       │
-│       └── ChatBot/
-│           ├── chat_history.txt
-│           ├── chatbot.py
-│           ├── dynamic_prompt_list_msg.py
-│           └── query_previous_history.py
-│
-└── Readme.md                    ← at the root
 
 # 2. Create a virtual environment
 python -m venv .venv
@@ -142,13 +110,3 @@ sentence-transformers
 numpy
 requests
 httpx
-
-# FILE 5 ->  Chatbots_projects/Email_Rewriter_Tool/.env.example
-Full path: FREE_LANCING_CONTENT/Chatbots_projects/Email_Rewriter_Tool/.env.example
-
-
-# Email Rewriter Tool -> Environment Variables
-
-api_key=your_api_key_here
-base_url=https://your-endpoint-url/v1
-model=your_model_name_here
